@@ -1,0 +1,189 @@
+html>
+<head>
+	<title>Assesmen Naufal</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			}
+				
+		.navbar {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 15px 50px;
+			background-color: #222; 
+			color: white;
+			position: fixed; 
+			top: 0;
+			width: 100%;
+			z-index: 1000;
+		}
+
+		.nav-links {
+			display: flex;
+			list-style: none;
+			gap: 20px;
+			transition: 0.7s;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+
+		.nav-links a {
+			color: white;
+			text-decoration: none;
+			font-weight: 500;
+			
+		}
+		.link-hover:hover{
+			color: white;
+			text-shadow: 0 0 8px #fff, 0 0 16px #fff, 0 0 24px #fff;
+			transition: 0.5s;
+		}
+
+		.logo{
+			font-size: 20px;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+
+
+					
+		section{
+			background: linear-gradient(to right, #0D47A1,#1976D2,#42A5F5,#BBDEFB);
+			color:white;
+			text-align:center;
+			padding:60px 20px;
+			}
+					
+		.link-hero{
+			background-color:white;
+			color:#007bff;
+			padding: 10px 20px;
+			text-decoration:none;
+			font-weight:bold;
+			border-radius:5px;
+			}
+
+		.link-hero:hover{
+			background-color:#0056b3;
+			color:white;
+			}
+					
+		.logo a{
+			text-decoration:none;
+			}
+		.card {
+			width: 700px;
+			border: 1px solid black;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			background-color: white;
+			overflow: hidden;
+			margin: 5px;
+			text-align: center;
+			border-radius: 15px;
+			margin-top: 150px;
+			}
+				
+		.card-img {
+			width: 100px;
+			height: 100px;
+			object-fit: cover;
+			border-radius: 50%;
+			border: #222;
+			margin: 10px;
+			}
+
+		.card-title {
+			font-size: 25px;
+			color: black;
+			}
+				
+		.card-subtitle {
+			font-size: 18px;
+			color: black;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			}
+				
+		.card-btn {
+			display: inline-block;
+			padding: 12px 30px;
+			background-color: white;
+			color: #1e3c72;
+			text-decoration: none;
+			font-weight: bold;
+			border-radius: 5px;
+			transition: 0.3s;
+			margin: 100px;
+			margin: 10px;
+			}
+				
+		.card-btn:hover {
+			background-color: #007bff;
+			color: white;
+			transition: 0.3s ease-in-out;
+			}
+				
+		.div-garis {
+			border: 4px solid black;
+			border-radius: 10px;
+			}
+				
+		body {
+			list-style: none;
+			display: flex;
+			gap: 25px;
+			margin-right: end;
+			justify-content: center;
+				
+			}
+		.background{
+			background-color: #1e3c72;
+			}
+		.font-family{
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			}
+	</style>
+</head>
+<body class="background">
+  
+    <nav class="navbar">
+        <div class="logo"><strong>ASSESMEN</strong></div>
+        <ul class="nav-links">
+            <li><a class="link-hover" href="index.html">Home</a></li>
+            <li><a class="link-hover" href="#">Profil</a></li>
+            <li><a class="link-hover" href="#">Guest</a></li>
+            <li><a class="link-hover" href="#">Contact</a></li>
+        </ul>
+    </nav>
+      
+        
+    <div class="card">
+		<img src="assets/img/img4.jpg" class="card-img">
+		<h3 class="font-family">Muhamad</h3>
+		<p class="card-subtitle">Tangan kiri | Problem solving |  </p>
+		<button class="card-btn">
+			Lihat Profil
+		</button> 
+	</div>	
+	<div class="card">
+		<img src="assets/img/img7.jpeg" class="card-img">
+		<h3 class="font-family"> Naufal </h3>
+		<p class="card-subtitle">CEO | Problem solving |  </p>
+		<button class="card-btn">
+			Lihat Profil
+		</button>
+	</div>	
+
+	<div class="card" >
+		<img src="assets/img/img8.jpeg" class="card-img">
+		<h3 class="font-family"> Arrasyid</h3>
+		<p class="card-subtitle">Tangan kanan | Problem solving |  </p>
+		<button class="card-btn">
+			Lihat Profil
+		</button>		
+		
+	</div>	
+	
+</body>
+</html>	
